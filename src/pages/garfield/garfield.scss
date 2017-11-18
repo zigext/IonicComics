@@ -1,0 +1,20 @@
+page-garfield {
+  #content{
+      background: color($colors, dark);
+      h2 {
+          color: color($colors, light);
+      }
+  }
+  #footer {
+      background: color($colors, dark);
+      margin-bottom: 25px;
+  }
+  #btnNext {
+      float: right;
+      margin-right: 25px;
+  }
+  #btnBack {
+      float: left;
+      margin-left: 25px;
+  }
+}

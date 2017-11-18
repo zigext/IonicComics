@@ -1,0 +1,24 @@
+page-batman {
+      #content{
+      background: color($colors, dark);
+      h2 {
+          color: color($colors, light);
+      }
+  }
+  #footer {
+      background: color($colors, dark);
+      margin-bottom: 25px;
+  }
+  #btnNext {
+      float: right;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      margin-top: 50px;
+  }
+  #btnBack {
+      float: left;
+      margin-left: 25px;
+      margin-bottom: 25px;
+      margin-top: 50px;
+  }
+}
